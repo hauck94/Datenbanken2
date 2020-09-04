@@ -1,0 +1,12 @@
+
+Bitte beheben Sie die folgende(s) Problem(e) bis spätestens Montag 25.11.19 23:55:
+- ihr code läuft bei mir nicht. gucken sie sich die abnahmekriterien nohcmal an; insb. der punkt zum zentralen server!
+- ihre modellierung der answer widerspricht der oo-idee, siehe moodle!
+- sie haben anser als composition zu question modelliert. im code ist es eine aggregation bzw assoziation.
+- sie haben viele andere abnahmekriterien auch nciht beachtet!!!! Warum gucken sie sich das nicht an?!
+
+
+Ich habe keine gravierenden Mängel mehr an Ihrem Praktikum gefunden und in meiner Liste die Aufgabe als bestanden markiert.
+
+Für das nächste mal erwarte ich allerding:
+- warum hat answer eine id? es handelt sich um eine komposition zu question. bitte gucken sie hierfür nochmal die realisierung nach.

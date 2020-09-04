@@ -1,0 +1,14 @@
+1. Ausgabe aller Spieler (Spielername), die in einem bestimmten Zeitraum gespielt hatten
+SELECT t0.ID, t0.NAME FROM praktikum.Player t0, praktikum.Game t1 WHERE (((t1.GAMESTART > '2020-01-05 00:00:01') AND (t1.GAMEEND < '2020-01-10 00:00:01')) AND (t0.ID = t1.PLAYER_ID)) GROUP BY t0.ID, t0.NAME
+
+2. Ausgabe zu einem bestimmten Spieler: Alle Spiele (Id, Datum), sowie die Anzahl der korrekten Antworten pro Spiel
+mit Angabe der Gesamtanzahl der Fragen pro Spiel bzw. alternativ den Prozentsatz der korrekt beantworteten
+Fragen.
+SELECT t1.ID, t1.GAMEEND, t1.GAMESTART, t1.NUMBEROFQUESTIONS, t1.PLAYER_ID FROM praktikum.Player t0, praktikum.Game t1 WHERE ((t0.NAME = '5496f73a-3d7b-4493-b7e5-a0dbe5e75ce4') AND (t0.ID = t1.PLAYER_ID))
+
+
+3. Ausgabe aller Spieler mit Anzahl der gespielten Spiele, nach Anzahl absteigend geordnet.
+SELECT t0.NAME, COUNT(t1.ID) FROM praktikum.Player t0, praktikum.Game t1 WHERE (t0.ID = t1.PLAYER_ID) GROUP BY t0.NAME ORDER BY COUNT(t1.ID) DESC
+4. Ausgabe der am meisten gefragten Kategorie, oder alternativ, die Beliebtheit der Kategorien nach Anzahl der
+Auswahl absteigend sortiert.
+SELECT COUNT(t0.ID), t0.NAME FROM praktikum.Category t0, praktikum.Game t2, praktikum.Question t1 WHERE ((t1.GAME_ID = t2.ID) AND (t0.ID = t1.CATEGORY_ID)) GROUP BY t0.NAME ORDER BY COUNT(t0.ID) DESC

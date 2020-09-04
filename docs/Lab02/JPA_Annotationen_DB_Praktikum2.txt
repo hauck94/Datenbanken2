@@ -1,0 +1,4 @@
+Bei jeder Entity-Klasse brauchen wir die Annotation @Entity
+@Table(name="name der Entity", schema ="name des Schemas")
+Über der ID brauchen wir die Annotation @ID
+Many to Many oder One to Many brauchen wir @OneToMany(MappedBy = "name der Entity")

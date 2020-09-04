@@ -1,0 +1,16 @@
+Szenariobeschreibung zum Anwendungsfall "Wissenstest spielen"
+
+
+Heute ist ein toller, sonniger Tag. Am Abend wollen wir uns mit unseren Freunden aus der Uni treffen.
+Wir haben vor ein Spiel zu spielen. Das Spiel heißt "Wissenstest". Wir sind eine größere Gruppe und werden
+bestimmt viel Freude haben.
+
+Worum geht es in diesem Spiel, fragte ein Freund. Ich fragte ihn kennst du es nicht? Ich erkläre es dir.
+Zuerst muss ein Spieler eine bestimmte Kategorie wählen(mindestens 2). Dann werden zufällige Fragen generiert.
+Die Anzahl der Fragen wird pro Kategorie und pro Spiel festgelegt. Diese sind dann innerhalb eines Spiels nicht änderbar.
+Wir bekommen 4 Antworten. 3 davon sind falsch und 1 richtig. Der Spieler muss eine Antwort wählen.
+Dann bekommen wir eine Information ob die Antwort richtig oder falsch ist. Hört sich doch gut an oder, fragte ich?.
+Firas & der Rest der Gruppenmitglieder sind der Meinung, dass der Abend bestimmt lustig und amüsant wird. 
+"Das spielen wir!". Wir treffen uns also so gegen 20 Uhr?. Alle sind damit einverstanden. Also bis heute Abend!
+
+

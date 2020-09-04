@@ -1,0 +1,16 @@
+Bitte beheben Sie die folgende(s) Problem(e) bis spätestens Montag 09.12.19 23:55, andernfalls verlieren Sie Ihren Praktikumsplatz:
+
+- Answer ist noch immer NICHT als Komposition realisiert!
+  Lesen Sie im Skript nach, wie man eine Komposition realisiert und ändern Sie Ihre Implementierung entsprechend ab!
+
+- Bei der Auswahl der Kategorien in "Play test" sollten nur die Kategorien angezeigt werden, nicht das ganze Objekt.
+
+- (!) Ihr Spiel läuft nicht! Sobald eine Kategorie ausgewählt wird, werde ich als Spieler zurück ins Hauptmenü geworfen.
+  -> persistGame(Object game) ist nicht implementiert..
+
+Bitte beheben Sie die Probleme und stellen Sie sicher, dass Ihr Spiel
+gemäß den Abnahmekriterien spielbar ist und datenbankseitig persistiert wird.
+
+
+####
+Ich habe keine weiteren gravierenden Mängel mehr an Ihrem Praktikum gefunden und in meiner Liste die Aufgabe als bestanden markiert.

@@ -1,0 +1,6 @@
+                                      Bitte beheben Sie folgende(s) Problem(e) bis spätestens Montag 13.01.20 23:55, andernfalls verlieren Sie Ihren Praktikumsplatz:
+
+- Ihre generierten Spiele werden nicht, wie gefordert, auf einen Zeitraum von mind. 2 Wochen verteilt!
+	-> 	Bitte stellen Sie sicher, dass in Ihrer Game-Entität die Attribute: Timestamp Start, Timestamp Ende
+		implementiert sind, wie in der Spielbeschreibung (siehe Praktikum 1) gefordert.
+		=> 	Realisieren Sie zudem die geforderte Funktionalität. Dies ist für die Analysen in Praktikum 5 zwingend erforderlich.
